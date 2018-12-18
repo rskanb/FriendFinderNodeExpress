@@ -192,8 +192,12 @@
             }
             console.log(newFriend);
             $.post("/api/friends", newFriend, function(data){
-                if(data){
-
+                if(response){
+                    //console.log(data);
+                     $("#friendname").text(response.name);
+                     $("#friendimg").attr("src", response.photo);
+                     // Show the modal with the best match
+                     $("#results-modal").modal("toggle");
                 }
                 else{
                     alert("Sorry Can't find any friend for you at this time");
