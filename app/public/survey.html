@@ -11,7 +11,6 @@
     </head>
     <body>
         <div class="container">
-            <br>
             <h2><strong>Survey Questions!!!</strong></h1>
             <hr>
 
@@ -160,7 +159,7 @@
         </div>
         <div class="modal-body">
           <h2 id="friendname"></h2>
-          <img id="frinedimg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+          <img id="friendimg" src="" alt="">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -170,28 +169,30 @@
     </div>
   </div>
         <script type="text/javascript">
-        
+        var score = [];
         $("#submit").on("click", function(event){
             event.preventDefault();
             if($("#name").val().trim() === "" || $("#photo").val().trim() === ""){
                 alert("Please Correct Your input and try again ");
             }else{
             var newFriend = {
-                name:$("#name").val().trim(),
-                photo:$("#photo").val().trim(),
-                que1:$("#que1").val().trim(),
-                que2:$("#que2").val().trim(),
-                que3:$("#que3").val().trim(),
-                que4:$("#que4").val().trim(),
-                que5:$("#que5").val().trim(),
-                que6:$("#que6").val().trim(),
-                que7:$("#que7").val().trim(),
-                que8:$("#que8").val().trim(),
-                que9:$("#que9").val().trim(),
-                que10:$("#que10").val().trim()
+                "name":$("#name").val().trim(),
+                "photo":$("#photo").val().trim(),
+                "score": [
+                    $("#que1").val().trim(), 
+                    $("#que2").val().trim(),
+                    $("#que3").val().trim(), 
+                    $("#que4").val().trim(), 
+                    $("#que5").val().trim(), 
+                    $("#que6").val().trim(), 
+                    $("#que7").val().trim(), 
+                    $("#que8").val().trim(), 
+                    $("#que9").val().trim(), 
+                    $("#que10").val().trim()
+                ]
             }
-            console.log(newFriend);
-            $.post("/api/friends", newFriend, function(data){
+            //console.log(newFriend);
+            $.post("/api/friends", newFriend, function(response){
                 if(response){
                     //console.log(data);
                      $("#friendname").text(response.name);
