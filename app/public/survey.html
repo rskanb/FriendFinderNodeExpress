@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+            <title>Friend Finder</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="https://code.jquery.com/jquery.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <br>
+            <h2><strong>Survey Questions!!!</strong></h1>
+            <hr>
+
+            <h3><strong>About You</strong></h3>
+            <h4>Please Enter Your Name</h4>
+            <input type="text" id="name" class="form-control" required>
+            <br>
+            <h4>Link to Your Photo Image</h4>
+            <input type="text" id="photo" class="form-control" required>
+            <br>
+            <h3><strong>Question 1</strong></h3>
+            <h4>The amount of time you take to become friendly person is way too much.</h4>
+            <select class="selectoption", id="que1">
+                <option value=" "></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <br>
+            <br>
+            <h3><strong>Question 2</strong></h3>
+            <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+            <select class="selectoption" id="que2">
+                <option value=" "></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h3><strong>Question 3</strong></h3>
+            <h4>You never discuss your new idea with friends and families</h4>
+            <select class="selectoption" id="que3">
+                <option value=" "></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h3><strong>Question 4</strong></h3>
+            <h4>You family did everything they could to make your nature as easy as possible.</h4>
+            <select class="selectoption" id="que4">
+                <option value=" "></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h3><strong>Question 5</strong></h3>
+            <h4>You like to work on a project in a group.</h4>
+            <select class="selectoption" id="que5">
+                <option value=" "></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h3><strong>Question 6</strong></h3>
+            <h4>You make your colleagues a good friend.</h4>
+            <select class="selectoption" id="que6">
+                <option value=" "></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h3><strong>Question 7</strong></h3>
+            <h4>You never trust any one even your family members.</h4>
+            <select class="selectoption" id="que7">
+                <option value=" "></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h3><strong>Question 8</strong></h3>
+            <h4>You always trust eveery one like your family and friends.</h4>
+            <select class="selectoption" id="que8">
+                <option value=" "></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h3><strong>Question 9</strong></h3>
+            <h4>You don't like to go out for movie with friends except girlfriends.</h4>
+            <select class="selectoption" id="que9">
+                <option value=" "></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h3><strong>Question 10</strong></h3>
+            <h4>Your attitude change suddenly when you are together with group of your friends.</h4>
+            <select class="selectoption" id="que10">
+                <option value=" "></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <button type="button" class="btn btn-lg btn-primary btn-block" id="submit">Submit</button>
+        </div>
+        <br>
+        <div class="container">
+                <a href="api/friends">API Friend List</a> | <a hred="#">github Repo</a>
+        </div>
+
+  <div class="container">
+  <div id="results-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title"><strong>Best Match</strong></h2>
+        </div>
+        <div class="modal-body">
+          <h2 id="friendname"></h2>
+          <img id="frinedimg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+        <script type="text/javascript">
+        
+        $("#submit").on("click", function(event){
+            event.preventDefault();
+            if($("#name").val().trim() === "" || $("#photo").val().trim() === ""){
+                alert("Please Correct Your input and try again ");
+            }else{
+            var newFriend = {
+                name:$("#name").val().trim(),
+                photo:$("#photo").val().trim(),
+                que1:$("#que1").val().trim(),
+                que2:$("#que2").val().trim(),
+                que3:$("#que3").val().trim(),
+                que4:$("#que4").val().trim(),
+                que5:$("#que5").val().trim(),
+                que6:$("#que6").val().trim(),
+                que7:$("#que7").val().trim(),
+                que8:$("#que8").val().trim(),
+                que9:$("#que9").val().trim(),
+                que10:$("#que10").val().trim()
+            }
+            console.log(newFriend);
+            $.post("/api/friends", newFriend, function(data){
+                if(data){
+
+                }
+                else{
+                    alert("Sorry Can't find any friend for you at this time");
+
+                }
+                $("#name").val(" ");
+                $("#photo").val(" ");
+                $("#que1").val(" ");
+                $("#que2").val(" ");
+                $("#que3").val(" ");
+                $("#que4").val(" ");
+                $("#que5").val(" ");
+                $("#que6").val(" ");
+                $("#que7").val(" ");
+                $("#que8").val(" ");
+                $("#que9").val(" ");
+                $("#que10").val("");
+            });
+        }
+        });
+
+        </script>
+    </body>
+</html>

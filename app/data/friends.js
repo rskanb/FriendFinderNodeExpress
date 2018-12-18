@@ -1,0 +1,100 @@
+var friendArr = [
+{
+    name: "Jam",
+    photo:"https://unsplash.com/photos/D23MDL49MGA",
+    que1:"3",
+    que2:"3",
+    que3:"4",
+    que4:"5",
+    que5:"1",
+    que6:"2",
+    que7:"2",
+    que8:"4",
+    que9:"5",
+    que10:"3"
+},
+{
+    name: "Rax",
+    photo:"https://unsplash.com/photos/tj4kNiNBcFU",
+    que1:"3",
+    que2:"2",
+    que3:"5",
+    que4:"3",
+    que5:"1",
+    que6:"5",
+    que7:"1",
+    que8:"4",
+    que9:"3",
+    que10:"2"
+},
+{
+    name: "Bax",
+    photo:"https://unsplash.com/photos/iyg1Otnket8",
+    que1:"1",
+    que2:"3",
+    que3:"5",
+    que4:"4",
+    que5:"2",
+    que6:"2",
+    que7:"4",
+    que8:"5",
+    que9:"3",
+    que10:"1"
+},{
+    name: "Aago",
+    photo:"https://unsplash.com/photos/2aZjRnwpw8o",
+    que1:"5",
+    que2:"4",
+    que3:"3",
+    que4:"2",
+    que5:"1",
+    que6:"2",
+    que7:"3",
+    que8:"4",
+    que9:"5",
+    que10:"3"
+},{
+    name: "Chico",
+    photo:"https://unsplash.com/photos/u-rwUPtuRlA",
+    que1:"3",
+    que2:"3",
+    que3:"3",
+    que4:"5",
+    que5:"1",
+    que6:"2",
+    que7:"2",
+    que8:"2",
+    que9:"4",
+    que10:"4"
+},
+{
+    name: "Tino",
+    photo:"https://unsplash.com/photos/vIjt8UHhSVo",
+    que1:"5",
+    que2:"3",
+    que3:"3",
+    que4:"2",
+    que5:"1",
+    que6:"4",
+    que7:"4",
+    que8:"1",
+    que9:"5",
+    que10:"3"
+},
+{
+    name: "Muno",
+    photo:"https://unsplash.com/photos/KYrynQnJylE",
+    que1:"1",
+    que2:"2",
+    que3:"2",
+    que4:"1",
+    que5:"4",
+    que6:"5",
+    que7:"5",
+    que8:"4",
+    que9:"3",
+    que10:"3"
+}
+];
+
+module.exports = friendArr;

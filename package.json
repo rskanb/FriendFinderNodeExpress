@@ -1,0 +1,24 @@
+{
+  "name": "friendfindernodeexpress",
+  "version": "1.0.0",
+  "description": "Friend Finder working with Node and Express",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rskanb/FriendFinderNodeExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rskanb/FriendFinderNodeExpress/issues"
+  },
+  "homepage": "https://github.com/rskanb/FriendFinderNodeExpress#readme"
+}
